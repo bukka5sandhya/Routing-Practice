@@ -1,0 +1,28 @@
+/* Write your CSS code here */
+.about-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.about-image {
+  width: 150px;
+}
+.about-heading {
+  font-weight: 500;
+  font-size: 24px;
+  font-family: 'Roboto';
+  color: #6d396b;
+}
+@media (min-width: 576px) {
+  .about-heading {
+    font-size: 48px;
+  }
+}
+.about-para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+  color: #555555;
+}
